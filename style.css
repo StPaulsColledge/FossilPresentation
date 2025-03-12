@@ -28,3 +28,7 @@ button {
 button:hover {
     background-color: #2980b9;
 }
+
+#parallax1 { background-image: url('images/background1.jpg'); }
+#parallax2 { background-image: url('images/background2.jpg'); }
+#parallax3 { background-image: url('images/background3.jpg'); }
