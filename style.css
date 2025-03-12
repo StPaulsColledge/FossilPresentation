@@ -1,34 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+body, html {
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
 }
 
-h1 {
-    color: #2c3e50;
-}
-
-#timeline {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #ecf0f1;
-    border-radius: 5px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #2980b9;
+.parallax {
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 #parallax1 { background-image: url('images/Back1.jpg'); }
 #parallax2 { background-image: url('images/Back2.jpg'); }
 #parallax3 { background-image: url('images/Back3.jpg'); }
+
+.content {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+}
