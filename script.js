@@ -1,12 +1,16 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Example of a timeline interaction
-    const timelineDiv = document.getElementById("timeline");
+function scrollToSection(sectionId) {
+    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+}
 
-    // Simple content example
-    timelineDiv.innerHTML = "<p>Click below to learn about fossils:</p><button onclick='showFossilInfo()'>Click to reveal Fossil Information</button>";
-});
+window.onscroll = function () {
+    let backToTopButton = document.getElementById("backToTop");
+    if (document.documentElement.scrollTop > 200) {
+        backToTopButton.style.display = "block";
+    } else {
+        backToTopButton.style.display = "none";
+    }
+};
 
-function showFossilInfo() {
-    const timelineDiv = document.getElementById("timeline");
-    timelineDiv.innerHTML = "<p>Fossil 1: 65 million years ago, the T. rex roamed!</p>";
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
