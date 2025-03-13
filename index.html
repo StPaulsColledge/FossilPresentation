@@ -3,31 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parallax Scrolling</title>
+    <title>Fossil Site Interpretive Handout</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#fossils">Fossils</a></li>
+                <li><a href="#dating">Dating Methods</a></li>
+                <li><a href="#tectonics">Tectonics</a></li>
+                <li><a href="#stratigraphy">Stratigraphy</a></li>
+            </ul>
+        </nav>
+    </header>
+    
     <div class="parallax" id="parallax1"></div>
-
-    <section class="content">
-        <h1>Welcome</h1>
-        <p>This is a parallax scrolling example.</p>
+    
+    <div class="start-container">
+        <h1>Welcome to [Fossil Site Name]</h1>
+        <button onclick="scrollToSection('overview')">Start</button>
+    </div>
+    
+    <section id="overview" class="content">
+        <h2>Overview</h2>
+        <p>Brief description of the site, including location, age, and discovery.</p>
     </section>
-
+    
     <div class="parallax" id="parallax2"></div>
-
-    <section class="content">
-        <h2>More Content</h2>
-        <p>Another section to showcase the effect.</p>
+    
+    <section id="fossils" class="content">
+        <h2>Fossils</h2>
+        <p>Description of significant organisms and fossil types.</p>
     </section>
-
+    
     <div class="parallax" id="parallax3"></div>
-
-    <section class="content">
-        <h2>Final Section</h2>
-        <p>Here is a third parallax background.</p>
+    
+    <section id="dating" class="content">
+        <h2>Dating Methods</h2>
+        <p>Explanation of index fossils and dating techniques.</p>
     </section>
-
+    
+    <div class="parallax" id="parallax4"></div>
+    
+    <section id="tectonics" class="content">
+        <h2>Plate Tectonics & Climate</h2>
+        <p>How past continental positions affected climate.</p>
+    </section>
+    
+    <div class="parallax" id="parallax5"></div>
+    
+    <section id="stratigraphy" class="content">
+        <h2>Stratigraphy</h2>
+        <p>Explanation of faunal succession, superposition, and absolute dating.</p>
+    </section>
+    
+    <button id="backToTop" onclick="scrollToTop()">Back to Top</button>
+    
+    <script src="script.js"></script>
 </body>
 </html>
