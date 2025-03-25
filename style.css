@@ -69,6 +69,7 @@ nav ul li a:hover {
     background-position: center;
     filter: blur(z20px);
     z-index: -1;
+}
 #parallax2 { background-image: url('images/biota2.jpg'); 
             background-size: 50%; }
 #parallax2::before {
