@@ -66,10 +66,10 @@ nav ul li a:hover {
     left: -10%;
     width: 120%;
     height: 100%;
-    background-image: url('back1.jpg');
+    background-image: url('biota2.jpg');
     background-size: cover;
     background-position: center;
-    filter: blur(20px);
+    filter: blur(z20px);
     z-index: -1;
 }
 #parallax3 { background-image: url('images/biota3.jpg');
@@ -81,7 +81,7 @@ nav ul li a:hover {
     left: -10%;
     width: 120%;
     height: 100%;
-    background-image: url('back1.jpg');
+    background-image: url('biota3.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(20px);
@@ -96,7 +96,7 @@ nav ul li a:hover {
     left: -10%;
     width: 120%;
     height: 100%;
-    background-image: url('back1.jpg');
+    background-image: url('biota4.jpg');
     background-size: cover;
     background-position: center;
     filter: blur(20px);
