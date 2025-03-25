@@ -51,17 +51,59 @@ nav ul li a:hover {
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
-#parallax1 { background-image: url('images/biota 1.jpg'); }
-#parallax2 { background-image: url('images/biota2.jpg'); 
-            background-size: 60%; }
-#parallax3 { background-image: url('images/biota3.jpg');
+#parallax1 { background-image: url('images/biota 1.jpg');
             background-size: 80%; }
-#parallax4 { background-image: url('images/biota4.jpg');
+#parallax2 { background-image: url('images/biota2.jpg'); 
+            background-size: 50%; }
+#parallax2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 120%;
+    height: 100%;
+    background-image: url('back1.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px);
+    z-index: -1;
+}
+#parallax3 { background-image: url('images/biota3.jpg');
             background-size: 60%; }
-#parallax5 { background-image: url('images/biota5.jpg'); }
+#parallax3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 120%;
+    height: 100%;
+    background-image: url('back1.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px);
+    z-index: -1;
+}
+#parallax4 { background-image: url('images/biota4.jpg');
+            background-size: 50%; }
+#parallax4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 120%;
+    height: 100%;
+    background-image: url('back1.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px);
+    z-index: -1;
+}
+#parallax5 { background-image: url('images/biota5.jpg');
+            background-size: 80%; }
 #parralax6 { background-image: url('images/biota6.jpg'); }
 
 
