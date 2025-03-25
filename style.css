@@ -54,11 +54,11 @@ nav ul li a:hover {
     background-position: center;
 }
 
-#parallax1 { background-image: url('images/official5.jpg'); }
-#parallax2 { background-image: url('images/fixerupper.jpg'); }
-#parallax3 { background-image: url('images/official4.jpg'); }
-#parallax4 { background-image: url('images/offical3.jpg'); }
-#parallax5 { background-image: url('images/Official1.jpg'); }
+#parallax1 { background-image: url('images/biota1.jpg'); }
+#parallax2 { background-image: url('images/biota2.jpg'); }
+#parallax3 { background-image: url('images/biota3.jpg'); }
+#parallax4 { background-image: url('images/biota4.jpg'); }
+#parallax5 { background-image: url('images/biota5.jpg'); }
 #parralax6 { background-image: url('images/biota6.jpg');}
 
 .content {
