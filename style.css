@@ -115,7 +115,8 @@ nav ul li a:hover {
     z-index: -1;
 }
 #parallax5 { background-image: url('images/biota5.jpg');
-            background-size: 80%; }
+            background-size: 80%;
+           x-index: -5; }
 #parralax6 { background-image: url('images/biota6.jpg'); }
 
 
