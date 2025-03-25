@@ -57,8 +57,10 @@ nav ul li a:hover {
 #parallax1 { background-image: url('images/biota 1.jpg'); }
 #parallax2 { background-image: url('images/biota2.jpg'); 
             background-size: 60%; }
-#parallax3 { background-image: url('images/biota3.jpg'); }
-#parallax4 { background-image: url('images/biota4.jpg'); }
+#parallax3 { background-image: url('images/biota3.jpg');
+            background-size: 80%; }
+#parallax4 { background-image: url('images/biota4.jpg');
+            background-size: 60%; }
 #parallax5 { background-image: url('images/biota5.jpg'); }
 #parralax6 { background-image: url('images/biota6.jpg'); }
 
