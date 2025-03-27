@@ -214,13 +214,13 @@ button:hover {
     display: none;
     position: absolute;
     background-color: rgba(50, 50, 50, 0.9); /* Semi-transparent grey */
-    min-width: 200px;
-    padding: 10px;
+    min-width: 500px; /* Increase the width of the dropdown */
+    padding: 10px; /* Add more padding for a larger box */
+    min-height: 200px;/* Set a minimum height */
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
-    max-height: 300px; /* Optional: limits height for scrolling */
     overflow-y: auto; /* Allows scrolling if content overflows */
 }
 
