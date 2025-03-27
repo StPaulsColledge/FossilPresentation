@@ -115,7 +115,7 @@ nav ul li a:hover {
     filter: blur(20px);
     z-index: -1;
 }
-#parallax5 { background-image: url('images/biota5.jpg');
+#parallax5 { background-image: url('images/WorldLook.png');
             background-size: 80%; }
 #parralax6 { background-image: url('images/biota6.jpg'); }
 
