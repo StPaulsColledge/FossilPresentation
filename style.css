@@ -236,3 +236,8 @@ button:hover {
     max-width: 40%; /* Adjust the size of the image */
     height: auto; /* Maintain aspect ratio */
 }
+
+.fossil-image {
+  width: 50%; /* Adjust width as needed */
+  height: auto; /* Maintains aspect ratio */
+}
