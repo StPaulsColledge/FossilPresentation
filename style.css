@@ -48,16 +48,15 @@ nav ul li a:hover {
 
 /* Content Section */
 .content {
-    margin-top: 80px; /* Pushes sections down to prevent overlap */
+    margin-top: 80px; 
     background: url('images/noise.jpg'), rgba(169, 169, 169, 0.8); /* Grey background with texture */
-    background-size: cover;
+    background-size: cover; /* Ensures the texture covers the whole area */
     background-position: center;
     padding: 50px;
-    margin: 50px auto;
-    width: 80%;
-    max-width: 800px;
-    border-radius: 10px;
-    text-align: center;
+    width: 100%; /* Expand the width to fill the section */
+    min-height: 100vh; /* Ensure the section height is full of the page */
+    border-radius: 0px; /* Remove any border radius if needed */
+    text-align: center;;
 }
 
 /* Parallax Section with Blurred Sides */
@@ -175,7 +174,7 @@ button:hover {
 /* Dropdown Button */
 .dropdown-button {
     background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
-    color: black;
+    color: white;
     padding: 10px 20px;
     font-size: 16px;
     border: 2px solid rgba(255, 255, 255, 0.5); /* Light border */
