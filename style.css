@@ -56,7 +56,8 @@ nav ul li a:hover {
     width: 100%; /* Expand the width to fill the section */
     min-height: 100vh; /* Ensure the section height is full of the page */
     border-radius: 0px; /* Remove any border radius if needed */
-    text-align: center;;
+    text-align: center;
+    color: white;
 }
 
 /* Parallax Section with Blurred Sides */
