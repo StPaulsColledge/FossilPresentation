@@ -182,6 +182,7 @@ button:hover {
     border-radius: 5px;
     cursor: pointer;
     position: relative;
+    display: inline-block;
     transition: background 0.3s, border-color 0.3s;
     text-align: left; /* Aligns the text to the left */
 }
