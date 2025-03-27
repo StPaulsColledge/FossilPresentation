@@ -63,9 +63,9 @@ nav ul li a:hover {
     margin-top: 80px; 
     background: rgba(169, 169, 169, 0.8); /* Grey background with texture */
     background-position: center;
-    padding: 20px;
+    padding: 50px;
     width: 100%; /* Expand the width to fill the section */
-    min-height: 50vh; /* Ensure the section height is full of the page */
+    min-height: 100vh; /* Ensure the section height is full of the page */
     border-radius: 0px; /* Remove any border radius if needed */
     text-align: center;
     color: white;
