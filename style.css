@@ -257,6 +257,14 @@ button:hover {
     height: auto; /* Maintain aspect ratio */
 }
 
+.wrap-image3 {
+    float: left; /* Makes the image float to the left of the text */
+    margin-right: 15px; /* Adds some space between the image and text */
+    margin-bottom: 10px; /* Adds space at the bottom so the text doesn't stick too close */
+    width: 75%; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
 .diverse {
   width: 25%; /* Adjust width as needed */
   height: auto; /* Maintains aspect ratio */
