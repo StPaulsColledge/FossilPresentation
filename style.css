@@ -94,10 +94,10 @@ nav ul li a:hover {
 
 /* Specific Background Images */
 #parallax1 {
-    background-image: url('images/biota1.jpg');
+    background-image: url('images/biota 1.jpg');
 }
 #parallax1::before, #parallax1::after {
-    background-image: url('images/biota1.jpg');
+    background-image: url('images/biota 1.jpg');
 }
 
 #parallax2 {
@@ -123,6 +123,7 @@ nav ul li a:hover {
 
 #parallax5 {
     background-image: url('images/WorldLook.png');
+    background-size: 60%;
 }
 
 #parallax6 {
