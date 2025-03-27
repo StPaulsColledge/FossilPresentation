@@ -53,7 +53,7 @@ nav ul li a:hover {
     background-position: center;
     padding: 20px;
     width: 100%; /* Expand the width to fill the section */
-    min-height: 0vh; /* Ensure the section height is full of the page */
+    min-height: 50vh; /* Ensure the section height is full of the page */
     border-radius: 0px; /* Remove any border radius if needed */
     text-align: center;
     color: white;
