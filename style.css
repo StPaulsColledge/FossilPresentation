@@ -228,3 +228,10 @@ button:hover {
 .dropdown.open .dropdown-content {
     display: block;
 }
+.wrap-image {
+    float: left; /* Makes the image float to the left of the text */
+    margin-right: 15px; /* Adds some space between the image and text */
+    margin-bottom: 10px; /* Adds space at the bottom so the text doesn't stick too close */
+    max-width: 40%; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+}
