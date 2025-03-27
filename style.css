@@ -114,10 +114,10 @@ nav ul li a:hover {
 }
 
 #parallax2 {
-    background-image: url('images/biota2.jpg');
+    background-image: url('images/stratigraphy.png');
 }
 #parallax2::before, #parallax2::after {
-    background-image: url('images/biota2.jpg');
+    background-image: url('images/stratigraphy.png');
 }
 
 #parallax3 {
